@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<title>masks off</title>
+</head>
+<body>
+
+	<div class="container">
+		<section class="img-section">
+
+
+			
+		</section>
+
+		<section class="float-section">
+			
+			<div>
+				<h2>STAY SAFE</h2>
+			</div>
+
+		</section>
+
+		<section class="info-section">
+
+			<div>
+				ANKARA MASKS
+			</div>
+
+			
+		</section>
+
+
+		<section class="more-info-sections">
+		<div>
+			ORDERS TO BE DELIVERED ON <span>TUESDAYS </span> AND <span>THURSDAYS </span>FOR KSH 300
+ 		</div>
+
+		<div>
+			MINIMUM ORDER OF 5 OR MORE @ KSH 200
+		</div>
+		<div class="special-case">
+			BUY AS AN INDIVIDUAL OR WITH YOUR FRIENDS
+		</div> 
+
+			
+		</section>
+
+		<footer>
+			<div>
+				for more info contact visit us at www.ndunyu.co.ke.staysafe
+			</div>
+		</footer>
+		
+	</div>
+	
+</body>
+
+<style>
+	*{
+		margin: 0;
+		padding:0;
+		box-sizing: border-box;
+	}
+	body{
+		background:#333;
+
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+	.container{
+		background: #000;
+		/*width: 100%;*/
+		overflow-x: hidden;
+		height: 100vh;
+		margin:0  auto;
+		max-width: 1100px;
+		color:#fff;
+	}
+
+	.img-section{
+		border-radius: 5px;
+		height:50vh;
+		width: 99%;
+		margin: auto;
+		
+	}
+
+	.img-section{
+		background-image: url("./masks.jpeg");
+		background-position:center;
+		background-size:100%;
+		/*background-size: contain;*/
+		/*width: 100%;*/
+		background-repeat: no-repeat;
+		margin-top:20px;
+
+		/*margin-bottom: 0;*/
+
+	}
+
+	.float-section{
+		height: 70px;
+		display: flex;
+		justify-content: center;
+		/*color:red;*/
+		align-items: center;
+		background:#45872FFF;
+		color:#000;
+		letter-spacing: 1.2em;
+		/*border-radius*/
+	}
+	.info-section{
+		height:200px;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		text-align: center;
+		font-size: 28px;
+		letter-spacing: 1.2em;
+		color:#45872FFF;
+
+	}
+
+	.more-info-sections{
+		height: 300px;
+		display: flex;
+		padding:0 20px;
+		border-top:3px solid #45872FFF;
+		border-bottom: 3px solid #45872FFF;
+
+		margin-left: 3px;
+		justify-content: center;
+		align-items:center;
+	}
+  .more-info-sections div{
+  	padding: 20px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	margin:3px;
+  	border-right:2px solid #45872FFF;
+  	width: 100%;
+  	line-height: 2.2em;
+
+  }
+
+  .more-info-sections div span{
+  	text-decoration: underline;
+  	/*text-decoration-color:green;*/
+  	color:#45872FFF;
+  }
+
+  .more-info-sections .special-case{
+  	border-right:none;
+  }
+
+  footer{
+  	height:200px;
+  	display: flex;
+  	justify-content: center;
+  	align-items:center;
+  	font-weight: bolder;
+  	letter-spacing: 0.3em;
+  	text-align: center;
+  }
+
+  @media only screen and (max-width: 650px) {
+
+
+  	.img-section{
+  		/*margin:0;*/
+  	}
+
+  	.more-info-sections{
+  		flex-direction: column;
+
+  	}
+
+  	.more-info-sections div{
+
+  		border-right:none;
+  		/*width: 100%;*/
+
+  		text-transform: lowercase;
+
+  	}
+   .info-section{
+   	/*letter-spacing: none;*/
+   	font-size:1rem;
+   	font-weight: bold;
+   	text-align: center;
+   }
+
+	
+   
+	.img-section{
+		border-radius: 5px;
+		height:50vh;
+		width: 100%;
+		margin: 5px;
+		
+	}
+
+   .float-section{
+   	height: 60px;
+   }
+  	
+  }
+
+  .flex-display-center{
+  	display: flex;
+  	justify-content: center;
+  	align-items:center;
+  	text-align: center;
+  }
+
+  
+	 footer{
+		 
+		 font-weight:bold;
+		 font-size:12px;
+		 
+		 
+		 
+	  }
+
+
+
+
+</style>
+
+</html>
